@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<template format="5" revision="3" name="Setup AndroidAnnotations" description="Setup AndroidAnnotations on current Android project.">
+    <category value="Misc"/>
+    <globals file="globals.xml.ftl"/>
+    <execute file="recipe.xml.ftl"/>
+</template>
