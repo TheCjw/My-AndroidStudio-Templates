@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<template format="5" revision="3" name="Add Xposed Module" description="Add an Xposed module to project">
+    <thumbs>
+        <thumb>template_xposed_module.png</thumb>
+    </thumbs>
+    <parameter
+        id="className"
+        name="Class Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="XposedLoadPackageEntry"/>
+    <category value="Xposed"/>
+    <execute file="recipe.xml.ftl"/>
+</template>
