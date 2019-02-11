@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<template format="5" revision="3" name="Add Timber Module" description="Add Timber to current project.">
+    <parameter
+        id="tagName"
+        name="Tag Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="LogTag"/>
+    <parameter
+        id="className"
+        name="Class Name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="TimberDebugTreeWithTag"/>
+    <category value="Misc"/>
+    <execute file="recipe.xml.ftl"/>
+</template>
